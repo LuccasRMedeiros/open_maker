@@ -4,8 +4,8 @@
 typedef enum
 {
     OPMK_DBG_LVL_LOG,
-} OPMK_e_dbglevel;
+} OPMK_DBG_dbglevel_e;
 
-int opmk_dbg_log(OPMK_e_dbglevel e_dbglvl, char *fmt, ...);
+int OPMK_DBG_log(OPMK_DBG_dbglevel_e e_dbglvl, char *fmt, ...);
 
 #endif // OPEN_MAKER_DEBUG_H
