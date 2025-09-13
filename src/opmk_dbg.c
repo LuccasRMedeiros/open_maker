@@ -7,7 +7,7 @@
 /**
  * TODO: Add doxygen documentation
  */
-int OPMK_DBG_log(OPMK_DBG_dbglevel_e e_dbglvl, char *fmt, ...)
+int OPMK_DBG_log(OPMK_DBG_dbglevel_e e_dbglvl, const char *fmt, ...)
 {
     int ret = 0;
     time_t t;

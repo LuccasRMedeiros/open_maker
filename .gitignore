@@ -1,3 +1,4 @@
-.ccls-cache
-build
-libopen_maker.a
+.ccls-cache/
+build/
+lib/
+*.a
